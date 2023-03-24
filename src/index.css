@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --orange: #ff9902;
+  --green: #0aa86b;
+  --red: #c90303;
+  --ligth-gray: #444444;
+  --bg-color: #333333;
+}
+
+body {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 5% 25%;
+  min-height: 100vh;
+}
+
+#root,
+.app{
+  width: 100%;
+}
